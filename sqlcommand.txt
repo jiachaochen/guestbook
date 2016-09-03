@@ -1,0 +1,7 @@
+CREATE TABLE Comments(
+    id int AUTO_INCREMENT,
+    name varchar(255) NOT NULL,
+    comment text NOT NULL,
+    posttime date NOT NULL,
+    PRIMARY KEY(id)
+);
